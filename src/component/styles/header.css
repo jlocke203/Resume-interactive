@@ -1,0 +1,61 @@
+.header-section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container{
+  
+    flex: 1 1 auto;
+
+}
+
+.header-text-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.header-text-container > h1 {
+    font-size: 3vw;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+
+}
+
+.lastname {
+    font-size: 3.6vw;
+    font-weight: 500;
+    color: purple;
+}
+
+.header-text-container > h1, h4, p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: .5m;
+    display: inline block;
+}
+
+.header-text-container > p{
+    font-size: 15px;
+    width: 60%;
+}
+
+.header-text-container > button {
+    border: none;
+    padding: .5em;
+    border-radius: 10px;
+    font-weight: 800;
+    transition: .5s;
+    width: 11em;
+
+}
+
+.header-text-container > button:hover{
+    background-color: rgba(128, 0, 128, 0.622);
+    border: none;
+}
+

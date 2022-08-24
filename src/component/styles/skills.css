@@ -1,0 +1,29 @@
+.skills-section{
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transform: scale(.9);
+    animation: fadeInX 1.5s .25s forwards;
+    -webkit-animation: fadeInX 1.5s .25s forwards;
+    
+}
+
+.skills-section > h2{
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+.skills-section > ul{
+    align-self: flex-start;
+    list-style: none;
+}
+
+.skills-section > ul > li::before{
+    content: "▹";
+    color: purple;
+    line-height: 12px;
+    position: relative;
+    right: 5px;
+}
+

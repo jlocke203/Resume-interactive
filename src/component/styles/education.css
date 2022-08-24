@@ -1,0 +1,45 @@
+.education-section{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+
+}
+
+.education{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
+
+}
+
+.education-left{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.education-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.edu-name{
+    font-weight: 600;
+    
+}
+
+@media only screen and (max-width: 600px) {
+  
+    .education-section{
+      width: 90%;
+    }
+
+   
+  }
+  
+

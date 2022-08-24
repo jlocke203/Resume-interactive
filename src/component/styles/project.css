@@ -1,0 +1,38 @@
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3em;
+}
+
+.projects-container{
+    margin: 0 2em 0 2em;
+}
+
+.project-header{
+    display: flex;
+    flex-direction: row;
+    column-gap: .5em;
+}
+
+.project-body > p{
+    margin: 0;
+    padding: 0;
+}
+
+.project-body > ul{
+    margin-top: 5px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+
+}
+
+
+.title > hr{
+    flex: 1 1 auto;
+
+}

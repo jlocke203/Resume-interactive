@@ -1,0 +1,71 @@
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    row-gap: 3em;
+
+}
+
+.socials-container{
+
+}
+
+.linkedin{
+    transition: .5s;
+}
+
+.linkedin:hover{
+    color: #0077b5;
+}
+
+.github{
+    transition: .5s;
+
+}
+
+.github:hover{
+    color: #6CC644;
+}
+
+
+
+.contact-container{
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-bottom: 75px;
+
+}
+
+.contact-text{
+    width: 60%;
+}
+
+.contact-container > h2{
+    margin-bottom: 0;
+}
+
+.email{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  
+    .contact-container{
+      width: 95%;
+      padding-bottom: 50px;
+    }
+
+    .contact-text{
+        width: 100%;
+    }
+  }
+  
+

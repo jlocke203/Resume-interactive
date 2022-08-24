@@ -1,0 +1,41 @@
+.positions-section{
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transform: scale(.9);
+    animation: fadeInX 1.5s 1s forwards;
+    -webkit-animation: fadeInX 1.5s 1s forwards;
+}
+
+.position-text{
+    width: 30vw;
+
+}
+
+.position-text > h2{
+    margin: 0;
+    padding: 0;
+}
+
+.position-text{
+    width: 30vw;
+}
+
+.position-text > p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+    .positions-section{
+      width: 90%;
+    }
+
+    .position-text{
+        width: 100%;
+    }
+  }
+  
